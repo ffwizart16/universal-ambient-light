@@ -20,7 +20,7 @@
   <string name="scanner_scan_in_progress_text">Scanning your local network for running hyperion servers %s</string>
   <string name="scanner_scan_in_progress_button">Taranıyor…</string>
   <string name="scanner_no_results">Sonuç bulunamadı %s</string>
-  <string name="scanner_Yeniden dene_button">Yeniden dene</string>
+  <string name="scanner_retry_button">Yeniden dene</string>
   <string name="scanner_manual_setup_button">Elle kurulum</string>
   <!-- Network Scanner result -->
   <string name="scan_result_title">And the winner is…</string>
