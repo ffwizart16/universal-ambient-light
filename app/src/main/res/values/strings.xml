@@ -254,12 +254,14 @@
     <item>English</item>
     <item>Русский</item>
     <item>Deutsch</item>
+    <item>Türkçe</item>
   </string-array>
   <string-array name="pref_list_language_values">
     <item>default</item>
     <item>en</item>
     <item>ru</item>
     <item>de</item>
+    <item>tr</item>
   </string-array>
 
   <string name="error_empty_host">Server address is not set. Open Settings → Connection → Host and enter the IP of your Hyperion/HyperHDR/WLED device, or use Scan network</string>

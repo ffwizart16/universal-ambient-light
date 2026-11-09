@@ -1,0 +1,35 @@
+name: Build Turkish APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/turkish-translation
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Kaynak kodunu indir
+        uses: actions/checkout@v5
+
+      - name: Java 17 kur
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Gradle yetkisi ver
+        run: chmod +x gradlew
+
+      - name: APK derle
+        run: ./gradlew :app:assembleFullDebug --no-daemon
+
+      - name: APK dosyasını yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: Universal-Ambient-Light-Turkish-APK
+          path: app/build/outputs/apk/full/debug/*.apk
+          if-no-files-found: error
+          retention-days: 14
