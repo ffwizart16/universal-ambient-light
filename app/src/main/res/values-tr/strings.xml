@@ -107,7 +107,7 @@
   <string name="camera_auto_frame_not_found">TV screen not found — corners left unchanged</string>
   <string name="camera_auto_frame_too_dark">Too dark to find the screen — turn the TV on and try again</string>
   <string name="camera_auto_frame_no_screen">Nothing screen-shaped in the frame — point the camera at the TV</string>
-  <string name="camera_auto_frame_no_kare">The camera did not deliver any kare</string>
+  <string name="camera_auto_frame_no_frames">The camera did not deliver any kare</string>
   <string name="camera_setup_save">Kaydet</string>
   <string name="camera_setup_reset">Sıfırla</string>
   <string name="camera_permission_required">Kamera permission is required for camera capture mode</string>
@@ -210,7 +210,7 @@
   <string name="pref_title_camera_idle_static">Sabit görüntüde uykuya geç</string>
   <string name="pref_summary_camera_idle_static">When enabled, frame transmission also pauses if the picture stops changing (e.g. a paused video or a static menu); the strip retains its last displayed colors. Devre dışı by default, as an extended static scene will freeze the strip\'s colors.</string>
   <string name="unit_rgb">RGB</string>
-  <string name="unit_kare">kare</string>
+  <string name="unit_frames">kare</string>
   <string name="unit_seconds">s</string>
   <string-array name="pref_list_capture_quality">
     <item>Low (64px)</item>
