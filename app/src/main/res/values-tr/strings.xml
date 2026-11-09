@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string-array name="pref_list_framerate">
+    <item>10 fps</item>
+    <item>15 fps</item>
+    <item>24 fps</item>
+    <item>30 fps</item>
+    <item>60 fps</item>
+  </string-array>
+  <string name="app_name">Universal Ambient Light</string>
+  <string name="pref_title">Ayarlar</string>
+  <!-- notification button -->
+  <string name="notification_exit_button">Çıkış</string>
+  <!-- Network scanner -->
+  <string name="scanner_Yeniden dene_button">Yeniden dene</string>
+  <string name="scanner_cancel">İptal</string>
+  <!-- Network Scanner result -->
+  <!-- Bağlantı settings -->
+  <string name="pref_group_connection">Bağlantı</string>
+  <string name="pref_title_host">Sunucu adresi</string>
+  <string name="pref_title_port">Bağlantı noktası</string>
+  <string name="pref_title_led_start_corner">LED başlangıç köşesi</string>
+  <string name="pref_title_led_direction">LED yönü</string>
+  <string name="pref_title_led_layout">LED yerleşimi</string>
+  <string name="pref_summary_led_layout">LED yerleşimini ekranda görüntüleyin ve düzenleyin</string>
+  <string name="led_layout_top_count_label">Üst LED sayısı</string>
+  <string name="led_layout_right_count_label">Sağ LED sayısı</string>
+  <string name="led_layout_bottom_count_label">Alt LED sayısı</string>
+  <string name="led_layout_left_count_label">Sol LED sayısı</string>
+  <string name="led_layout_total_leds">Üstlam LED: %1$d</string>
+  <string name="led_layout_active_sides">Etkin kenarlar</string>
+  <string name="led_layout_side_top">Üst</string>
+  <string name="led_layout_side_right">Sağ</string>
+  <string name="led_layout_side_bottom">Alt</string>
+  <string name="led_layout_side_left">Sol</string>
+  <string name="led_layout_bottom_gap_label">Alt gap (for soundbar)</string>
+  <string name="led_layout_capture_margin_label">Yakalama kenar boşluğu (%)</string>
+  <string name="led_layout_capture_margin_top_label">Üst capture margin (%)</string>
+  <string name="led_layout_capture_margin_top_help">0–90%. Üst edge offset from screen.</string>
+  <string name="led_layout_capture_margin_right_label">Sağ capture margin (%)</string>
+  <string name="led_layout_capture_margin_right_help">0–90%. Sağ edge offset from screen.</string>
+  <string name="led_layout_capture_margin_bottom_label">Alt capture margin (%)</string>
+  <string name="led_layout_capture_margin_bottom_help">0–90%. Alt edge offset from screen.</string>
+  <string name="led_layout_capture_margin_left_label">Sol capture margin (%)</string>
+  <string name="led_layout_capture_margin_left_help">0–90%. Sol edge offset from screen.</string>
+    <string name="led_layout_offset_label">LED kaydırma miktarı (çevre boyunca adım)</string>
+    <string name="led_layout_offset_help">Pozitif değer yerleşim yönünde, negatif değer ters yöndedir.</string>
+    <string name="led_layout_scan_depth_label">Tarama derinliği (%)</string>
+    <string name="led_layout_scan_depth_help">Renk ortalaması alınacak alanın derinliği (%1-50).</string>
+  <string name="led_layout_legend_title">Açıklama:</string>
+  <string name="led_layout_legend_first_led">LED #1 (ilk)</string>
+  <string name="led_layout_legend_active_leds">Etkin LED'ler</string>
+  <string name="led_layout_legend_disabled_leds">Devre dışı LED'ler</string>
+  <string name="led_layout_legend_screen">Ekran</string>
+  <string name="led_side_mode_on">Açık</string>
+  <string name="led_side_mode_off">Kapalı</string>
+  <string name="led_side_mode_none">Yok</string>
+  <string name="led_direction_clockwise">Saat yönünde</string>
+  <string name="led_direction_counterclockwise">Saat yönünün tersinde</string>
+  <string name="led_corner_top_left">Üst left</string>
+  <string name="led_corner_top_right">Üst right</string>
+  <string name="led_corner_bottom_right">Alt right</string>
+  <string name="led_corner_bottom_left">Alt left</string>
+  <string name="action_back">Geri</string>
+  <string name="action_ok">Tamam</string>
+  <string name="action_cancel">İptal</string>
+  <string name="action_close">Kapat</string>
+  <string name="action_copy">Kopyala</string>
+  <string name="action_reset">Sıfırla</string>
+  <string name="home_effects">Efektler</string>
+  <string name="home_toggle_power">Gücü aç/kapat</string>
+  <string name="home_settings">Ayarlar</string>
+  <string name="unit_ms">%1$d ms</string>
+  <string name="debug_info_title">Hata ayıklama bilgisi</string>
+  <string name="debug_info_copied">Panoya kopyalandı</string>
+  <string name="pref_category_debug">Hata ayıklama</string>
+  <string name="pref_title_device_info">Cihaz bilgisi</string>
+  <string name="pref_summary_device_info">Hata ayıklama için cihaz bilgilerini göster</string>
+  <string name="rating_stars_desc">%1$d yıldız</string>
+  <string name="usb_service_unavailable">Bu cihazda USB hizmeti kullanılamıyor</string>
+  <string name="usb_no_serial_devices">USB seri cihazı bulunamadı. Cihazınızı USB OTG ile bağlayın</string>
+  <string name="usb_permission_denied_toast">USB cihazı izni reddedildi. Lütfen USB erişimine izin verin.</string>
+  <string name="usb_permission_prompt">USB cihazına erişimi onaylayın</string>
+  <string name="usb_permission_no_dialog">The system did not show the USB access request, and without it the app cannot open the controller. This is a firmware limitation: use a network controller such as WLED instead</string>
+  <string name="pref_title_priority">Mesaj önceliği</string>
+  <string name="pref_title_reconnect">Yeniden bağlan</string>
+  <string name="pref_title_reconnect_delay">Yeniden bağlan Delay</string>
+  <string name="pref_title_standby_keepalive">Bekleme modunda çalışmaya devam et</string>
+  <string name="pref_summary_standby_keepalive">Keep sending data to the LEDs while the TV screen is off. When disabled, the app turns the LEDs off and stays silent in standby, resuming when the screen turns back on</string>
+  <!-- Capture source -->
+  <string name="pref_title_capture_source">Yakalama kaynağı</string>
+  <string-array name="pref_list_capture_source">
+    <item>Ekran</item>
+    <item>Kamera</item>
+    <item>Efekt (yakalama yok)</item>
+  </string-array>
+  <string-array name="pref_list_capture_source_values">
+    <item>screen</item>
+    <item>camera</item>
+    <item>effect</item>
+  </string-array>
+  <string name="pref_title_camera_setup">Kamera Corner Setup</string>
+  <string name="pref_summary_camera_setup">Adjust the 4 corners to match your TV screen in the camera view</string>
+  <string name="camera_setup_title">Kamera Setup</string>
+  <string name="camera_setup_instruction">Drag the 4 corners to match the edges of your TV screen</string>
+  <string name="camera_auto_frame_button">TV'yi bul</string>
+  <string name="camera_auto_frame_not_found">TV screen not found — corners left unchanged</string>
+  <string name="camera_auto_frame_too_dark">Too dark to find the screen — turn the TV on and try again</string>
+  <string name="camera_auto_frame_no_screen">Nothing screen-shaped in the frame — point the camera at the TV</string>
+  <string name="camera_auto_frame_no_kare">The camera did not deliver any kare</string>
+  <string name="camera_setup_save">Kaydet</string>
+  <string name="camera_setup_reset">Sıfırla</string>
+  <string name="camera_permission_required">Kamera permission is required for camera capture mode</string>
+  <string name="camera_grant_permission">İzin ver</string>
+  <string name="camera_capturing_status">Kamera is capturing…</string>
+  <!-- Yakalama yöntemi -->
+  <string name="pref_title_capture_method">Yakalama yöntemi</string>
+  <string-array name="pref_list_capture_method">
+    <item>MediaProjection (Standard)</item>
+    <item>Scrcpy (ADB, ~30ms) ★★★★★</item>
+    <item>ADB Stream (H.264, ~50ms)</item>
+    <item>Ekrancap (Shell / ADB)</item>
+    <item>Ekrancap (Root)</item>
+    <item>ADB (Ekranshot, ~200ms)</item>
+    <item>Accessibility (Android 11+)</item>
+    <item>MTK Hardware Capture (Root)</item>
+    <item>MStar VSS Hardware Capture (Root)</item>
+  </string-array>
+  <string-array name="pref_list_capture_method_values">
+    <item>media_projection</item>
+    <item>scrcpy</item>
+    <item>adb_stream</item>
+    <item>screencap_shell</item>
+    <item>screencap_root</item>
+    <item>adb_local</item>
+    <item>accessibility</item>
+    <item>mtk_thal_capture</item>
+    <item>mstar_vss_capture</item>
+  </string-array>
+
+  <string name="pref_title_adb_port">ADB Bağlantı noktası</string>
+  <string name="pref_btn_adb_pair">Test ADB Bağlantı</string>
+  <string name="pref_summary_adb_pair">Check connection and authorize the key on the TV</string>
+  <string name="adb_pair_title">ADB yetkilendirmesi</string>
+  <string name="adb_pair_instruction">Açık first connection the TV will show an "Allow wireless debugging?" dialog — tap Allow on the TV screen. Make sure Wireless Hata ayıklamaging is enabled in Geliştirici seçenekleri.</string>
+  <string name="error_adb_pairing_required">ADB pairing required. Open Ayarlar → Capture method → Test ADB Bağlantı → Eşleştir with code.</string>
+  <string name="adb_pair_code_title">Eşleştir with code (Android 11+, one-time)</string>
+  <string name="adb_pair_code_hint">6-digit pairing code</string>
+  <string name="adb_pair_port_hint">Eşleştiring port (from that screen)</string>
+  <string name="adb_pair_code_instruction">Manual fallback: open Wireless debugging → "Eşleştir device with pairing code" and type the PORT and 6-digit CODE shown there. The automatic button above is easier — it reads the code itself and pairs without leaving that screen.</string>
+  <string name="adb_autopair_btn">Eşleştir automatically (Accessibility)</string>
+  <string name="adb_autopair_waiting">Enable Wireless debugging if needed — the app will open it, then read the code and pair by itself.</string>
+  <string name="adb_autopair_need_accessibility">Turn on Accessibility for this app on the next screen, then tap "Eşleştir automatically" again.</string>
+  <string name="adb_enable_accessibility_toast">Find "%1$s" in the list, open it and turn it ON — then go back and tap "Eşleştir automatically".</string>
+  <string name="adb_autopair_consent_title">Automatic pairing — please confirm</string>
+  <string name="adb_autopair_consent_text">To capture the screen, the app connects to this device\'s own ADB over localhost (127.0.0.1). With your permission it will: open Wireless debugging, read the one-time 6-digit pairing code shown on that screen using the Accessibility service, and tap the “Eşleştir device with pairing code” option for you. It connects only locally, does not change any other settings, and sends nothing off the device. Devam et?</string>
+  <string name="adb_autopair_consent_continue">Devam et</string>
+  <string name="adb_autopair_timeout">Timed out. Make sure Wireless debugging is ON, then tap "Eşleştir automatically" again.</string>
+  <string name="adb_pair_manual_label">Elle gir</string>
+  <string name="adb_pair_btn">Eşleştir</string>
+  <string name="adb_pairing">Eşleştiring…</string>
+  <string name="adb_pair_success">Eşleştired! Now tap Test ADB Bağlantı.</string>
+  <string name="adb_pair_failed">Eşleştiring failed: %1$s</string>
+  <string name="adb_test_success">Bağlandı! ADB anahtarı yetkilendirildi.</string>
+  <string name="adb_test_failed">Bağlantı failed: %s\n\nMake sure Wireless Hata ayıklamaging is enabled and accept the dialog on the TV.</string>
+  <string name="adb_status_label">Developer options: %1$s\nADB: %2$s</string>
+  <string name="adb_legacy_title">Android 10 and older</string>
+  <string name="adb_legacy_btn">Connect (legacy, no pairing)</string>
+  <string name="adb_status_on">ON</string>
+  <string name="adb_status_off">OFF</string>
+  <string name="adb_btn_open_dev_options">Open Geliştirici seçenekleri</string>
+  <string name="adb_btn_how_to_enable_dev_options">How to enable Geliştirici seçenekleri</string>
+  <string name="adb_btn_open_wireless_debug">Open Wireless Hata ayıklamaging</string>
+  <string name="adb_toast_dev_options_help">Enable Geliştirici seçenekleri first: Ayarlar → About phone → tap Build number 7 times</string>
+  <string name="adb_toast_cannot_open_dev">Cannot open Geliştirici seçenekleri on this device</string>
+  <string name="adb_toast_cannot_open_wireless">Cannot open Wireless Hata ayıklamaging on this device</string>
+
+  <!-- Yakalama settings -->
+  <string name="pref_group_capturing">Yakalama</string>
+  <string name="pref_title_framerate">Yakalama hızı</string>
+  <string name="pref_title_capture_quality">Yakalama kalitesi</string>
+  <string name="pref_title_color_brightness">Parlaklık</string>
+  <string name="pref_title_color_contrast">Kontrast</string>
+  <string name="pref_title_color_black_level">Siyah seviyesi</string>
+  <string name="pref_title_color_white_level">Beyaz seviyesi</string>
+  <string name="pref_title_color_saturation">Doygunluk</string>
+  <string name="pref_title_color_processing_enabled">Renk işleme</string>
+  <string name="pref_group_color_per_channel">Per-channel correction (R/G/B)</string>
+  <string name="pref_title_color_brightness_r">Kırmızı parlaklığı</string>
+  <string name="pref_title_color_brightness_g">Yeşil parlaklığı</string>
+  <string name="pref_title_color_brightness_b">Mavi parlaklığı</string>
+  <string name="pref_title_color_gamma_r">Kırmızı gama</string>
+  <string name="pref_title_color_gamma_g">Yeşil gama</string>
+  <string name="pref_title_color_gamma_b">Mavi gama</string>
+  <string name="pref_color_preview_title">Önizleme (renk işlemeden sonra)</string>
+  <string name="pref_color_preview_hint">Reflects what will be sent to the LED strip. The animations on the Home screen do NOT use these settings.</string>
+  <string name="pref_group_border_detection">Siyah bant (letterbox) algılama</string>
+  <string name="pref_title_border_detection_enabled">Letterbox bantlarını otomatik algıla</string>
+  <string name="pref_summary_border_detection_enabled">Ignore black bars around the picture (works for 16:9, 1.85:1, 2.39:1 content). Kapalı by default.</string>
+  <string name="pref_title_border_threshold">Black threshold (RGB 0–64)</string>
+  <string name="pref_title_border_check_interval">Algılama aralığı (kare)</string>
+  <string name="pref_title_border_ignore_subtitles">Alt banttaki altyazıları yok say</string>
+  <string name="pref_summary_border_ignore_subtitles">Takes the bar height from the top edge and checks only the corners at the bottom, so subtitles in the bar do not reduce the crop. Dark scenes keep the crop. Subtitles over the picture still reach the LEDs.</string>
+  <string name="pref_group_camera_idle">Kamera Sleep Mode</string>
+  <string name="pref_title_camera_idle_enabled">Uyku modunu etkinleştir</string>
+  <string name="pref_summary_camera_idle_enabled">Kamera capture receives no standby signal from the TV, so a powered-off screen keeps streaming sensor noise to the strip. When enabled, the LEDs turn off once the picture goes blank, and frame transmission pauses until the picture returns. Devre dışı by default.</string>
+  <string name="pref_title_camera_idle_timeout">Uyku gecikmesi (saniye)</string>
+  <string name="pref_title_camera_idle_dark_level">Blank screen threshold (0–96)</string>
+  <string name="pref_title_camera_idle_motion_level">Motion sensitivity threshold (1–64)</string>
+  <string name="pref_title_camera_idle_static">Sabit görüntüde uykuya geç</string>
+  <string name="pref_summary_camera_idle_static">When enabled, frame transmission also pauses if the picture stops changing (e.g. a paused video or a static menu); the strip retains its last displayed colors. Devre dışı by default, as an extended static scene will freeze the strip\'s colors.</string>
+  <string name="unit_rgb">RGB</string>
+  <string name="unit_kare">kare</string>
+  <string name="unit_seconds">s</string>
+  <string-array name="pref_list_capture_quality">
+    <item>Low (64px)</item>
+    <item>Medium (128px)</item>
+    <item>High (256px)</item>
+    <item>Ultra (512px)</item>
+    <item>720p (unstable)</item>
+    <item>1080p (unstable)</item>
+    <item>1440p (unstable)</item>
+    <item>2160p (unstable)</item>
+  </string-array>
+  <string-array name="pref_list_capture_quality_values">
+    <item>64</item>
+    <item>128</item>
+    <item>256</item>
+    <item>512</item>
+    <item>720</item>
+    <item>1080</item>
+    <item>1440</item>
+    <item>2160</item>
+  </string-array>
+  <!-- Genel settings -->
+  <string name="pref_group_general">Genel</string>
+  <string name="pref_title_boot">Açılışta yakalamayı başlat</string>
+  <string name="pref_title_language">Dil</string>
+  <string name="pref_title_reset_picture">Sıfırla picture settings</string>
+  <string name="pref_summary_reset_picture">Capture rate and quality, color correction, smoothing and black bar cropping go back to their defaults. The connection, LED layout and camera calibration stay as they are</string>
+  <string name="pref_title_backup_save">Kaydet settings to a file</string>
+  <string name="pref_summary_backup_save">All settings except pairing with the phone. Tokens and passwords of your lights are stored in the file as plain text</string>
+  <string name="pref_title_backup_restore">Ayarları dosyadan geri yükle</string>
+  <string name="pref_summary_backup_restore">Replaces all current settings. Açık a TV this needs a file manager, or do it from the phone remote</string>
+  <string name="backup_saved">Ayarlar saved: %1$s</string>
+  <string name="backup_save_failed">Dosya kaydedilemedi</string>
+  <string name="backup_restored">Ayarlar restored</string>
+  <string name="backup_restored_without_method">Ayarlar restored. The capture method from the file is not available here, the current one stays</string>
+  <string name="backup_read_failed">Could not read settings from this file</string>
+  <string name="backup_no_picker">No file manager found on this device</string>
+  <string name="pref_key_language">language</string>
+  <string-array name="pref_list_language">
+    <item>Varsayılan</item>
+    <item>İngilizce</item>
+    <item>Rusça</item>
+    <item>Almanca</item>
+  </string-array>
+  <string-array name="pref_list_language_values">
+    <item>default</item>
+    <item>en</item>
+    <item>ru</item>
+    <item>de</item>
+    <item>tr</item>
+  </string-array>
+
+  <string name="error_empty_host">Server address is not set. Open Ayarlar → Bağlantı → Sunucu adresi and enter the IP of your Hyperion/HyperHDR/WLED device, or use Scan network</string>
+  <string name="error_empty_port">Bağlantı noktası is not set. Open Ayarlar → Bağlantı → Bağlantı noktası (19400 for Hyperion, 4048 for WLED/DDP)</string>
+  <string name="error_invalid_port">Invalid port: %1$d. It must be between 1 and 65535</string>
+  <string name="setup_required_title">Kurulum gerekli</string>
+  <string name="setup_required_open_settings">Ayarları aç</string>
+  <string name="setup_required_cancel">İptal</string>
+  <string name="error_invalid_led_counts">Total LED count is 0 — set the per-side LED counts in Ayarlar → LED yerleşimi</string>
+  <string name="error_server_unreachable">Hyperion sunucusuna bağlanılamadı. Ayarlarınızı ve Hyperion'un çalıştığını kontrol edin</string>
+  <string name="error_adalight_unreachable">Could not connect to Adalight device. Make sure: 1) Device is connected via USB OTG cable, 2) USB permission is granted when prompted, 3) Correct baud rate is set in settings</string>
+  <string name="error_connection_lost">Hyperion sunucusuyla bağlantı kesildi; yakalama durduruluyor</string>
+  <string name="error_adalight_connection_lost">The connection to your Adalight device has been lost, now stopping the grabber</string>
+  <string name="error_media_projection_denied">Ekran recording permission was denied. Please grant permission when prompted</string>
+  <string name="error_screen_recording_not_available">Ekran recording is not available on this device</string>
+  <string name="url_dialog_title">Open Link</string>
+  <string name="url_dialog_message">Scan the QR code or copy the link below to open it in a browser:</string>
+  <string name="url_dialog_qr_description">QR code for the link</string>
+  <string name="url_dialog_open_link">Open Link</string>
+  <string name="help_readme_url">https://github.com/vasmarfas/universal-ambient-light/blob/master/README.md</string>
+  <string name="support_url">https://github.com/vasmarfas/universal-ambient-light/blob/master/SUPPORT.md</string>
+  <string name="chat_url" translatable="false">https://t.me/vasmarfas_chat</string>
+  <string name="notification_channel_label">Universal Ambient Light Notifications</string>
+  <string name="notification_description">Currently grabbing screen content</string>
+  <string name="pref_title_use_avg_color">Send Average Ekran Color</string>
+  <string name="pref_title_adalight_baudrate">Adalight Baud Rate</string>
+  <string-array name="pref_list_adalight_baudrate">
+    <item>9600</item>
+    <item>19200</item>
+    <item>38400</item>
+    <item>57600</item>
+    <item>115200 (recommended)</item>
+    <item>230400</item>
+    <item>250000</item>
+    <item>500000</item>
+    <item>921600</item>
+    <item>1000000</item>
+    <item>2000000</item>
+  </string-array>
+  <string-array name="pref_list_adalight_baudrate_values" translatable="false">
+    <item>9600</item>
+    <item>19200</item>
+    <item>38400</item>
+    <item>57600</item>
+    <item>115200</item>
+    <item>230400</item>
+    <item>250000</item>
+    <item>500000</item>
+    <item>921600</item>
+    <item>1000000</item>
+    <item>2000000</item>
+  </string-array>
+  <string name="pref_title_wled_color_order">WLED Color Order</string>
+  <string-array name="pref_list_wled_color_order">
+    <item>RGB</item>
+    <item>GRB</item>
+    <item>BRG</item>
+    <item>RBG</item>
+    <item>GBR</item>
+    <item>BGR</item>
+  </string-array>
+  <string-array name="pref_list_wled_color_order_values">
+    <item>rgb</item>
+    <item>grb</item>
+    <item>brg</item>
+    <item>rbg</item>
+    <item>gbr</item>
+    <item>bgr</item>
+    </string-array>
+  
+  <!-- Smoothing settings -->
+  <string name="pref_group_smoothing">Smoothing</string>
+  <string name="pref_title_smoothing_enabled">Enable Smoothing</string>
+  <string name="pref_title_smoothing_preset">Smoothing Preset</string>
+  <string-array name="pref_list_smoothing_preset">
+    <item>Kapalı</item>
+    <item>Responsive</item>
+    <item>Balanced</item>
+    <item>Smooth</item>
+  </string-array>
+  <string-array name="pref_list_smoothing_preset_values">
+    <item>off</item>
+    <item>responsive</item>
+    <item>balanced</item>
+    <item>smooth</item>
+  </string-array>
+  <string name="pref_title_settling_time">Settling Time (ms)</string>
+  <string name="pref_title_output_delay">Output Delay (ms)</string>
+  <string name="pref_title_update_frequency">Update Frequency</string>
+  <string-array name="pref_list_update_frequency">
+    <item>20 Hz</item>
+    <item>25 Hz</item>
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+  </string-array>
+  <string-array name="pref_list_update_frequency_values">
+    <item>20</item>
+    <item>25</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+    <item>60</item>
+  </string-array>
+  
+  <!-- WLED advanced settings -->
+  <string name="pref_title_wled_protocol">WLED Protocol</string>
+  <string-array name="pref_list_wled_protocol">
+    <item>UDP Raw (port 19446)</item>
+    <item>DDP (port 4048)</item>
+  </string-array>
+  <string-array name="pref_list_wled_protocol_values">
+    <item>udp_raw</item>
+    <item>ddp</item>
+  </string-array>
+  <string name="pref_title_wled_rgbw">WLED RGBW</string>
+  <string name="pref_summary_wled_rgbw_raw">Ignored on port 19446: it has no white channel. Use DDP for RGBW strips</string>
+  <string name="pref_summary_wled_rgbw_white_mode">Needs an RGBW strip in WLED with white calculation set to Manual only or Dual — auto modes recompute white and leave it dark</string>
+  <string name="pref_title_wled_brightness">WLED brightness</string>
+  <string name="pref_summary_wled_brightness_max">255 — colors are sent unchanged</string>
+  <!-- Home Assistant -->
+  <string name="pref_title_ha_token">Access token</string>
+  <string name="pref_summary_ha_token_empty">Long-lived token from your Home Assistant profile → Security</string>
+  <string name="pref_summary_ha_token_set">Token saved</string>
+  <string name="pref_title_ha_lamps">Lights and zones</string>
+  <string name="pref_summary_ha_lamps_empty">No lights configured</string>
+  <string name="pref_summary_ha_lamps_count">Lights configured: %1$d</string>
+  <string name="pref_title_ha_update_interval">Update rate</string>
+  <string-array name="pref_list_ha_update_interval">
+    <item>10 per second (100 ms)</item>
+    <item>150 ms</item>
+    <item>4 per second (250 ms)</item>
+    <item>2 per second (500 ms)</item>
+    <item>1 per second</item>
+    <item>Every 2 seconds</item>
+    <item>Every 5 seconds</item>
+  </string-array>
+  <string-array name="pref_list_ha_update_interval_values" translatable="false">
+    <item>100</item>
+    <item>150</item>
+    <item>250</item>
+    <item>500</item>
+    <item>1000</item>
+    <item>2000</item>
+    <item>5000</item>
+  </string-array>
+  <string name="pref_title_ha_change_threshold">Color change threshold</string>
+  <string name="pref_summary_ha_change_threshold">0–255. An update is sent only when the zone color changes at least this much</string>
+  <string name="pref_title_ha_transition">Transition</string>
+  <string-array name="pref_list_ha_transition">
+    <item>Kapalı</item>
+    <item>150 ms</item>
+    <item>300 ms</item>
+    <item>500 ms</item>
+    <item>1 second</item>
+    <item>2 seconds</item>
+  </string-array>
+  <string-array name="pref_list_ha_transition_values" translatable="false">
+    <item>0</item>
+    <item>150</item>
+    <item>300</item>
+    <item>500</item>
+    <item>1000</item>
+    <item>2000</item>
+  </string-array>
+  <string name="pref_title_ha_brightness_mode">Parlaklık</string>
+  <string-array name="pref_list_ha_brightness_mode">
+    <item>Follows the picture</item>
+    <item>Don\'t change</item>
+  </string-array>
+  <string-array name="pref_list_ha_brightness_mode_values" translatable="false">
+    <item>screen</item>
+    <item>keep</item>
+  </string-array>
+  <string name="pref_title_ha_brightness">Parlaklık limit</string>
+  <string name="pref_summary_ha_brightness_max">255 — full lamp brightness</string>
+  <string name="pref_title_ha_dark_off">Turn off on dark scenes</string>
+  <string name="pref_summary_ha_dark_off">Lights switch off when the zone goes darker than the threshold and come back with the picture</string>
+  <string name="pref_title_ha_dark_threshold">Dark threshold</string>
+  <string name="pref_title_ha_turn_off_lights">Turn lights off on stop</string>
+  <string name="pref_summary_ha_turn_off_lights">Switch the lights off when capture stops or the TV screen goes off</string>
+  <string name="ha_lamps_dialog_title">Home Assistant lights</string>
+  <string name="ha_lamps_loading">Loading lights…</string>
+  <string name="ha_lamps_error">Couldn\'t reach Home Assistant: %1$s</string>
+  <string name="ha_lamps_empty">No lights found</string>
+  <string name="ha_lamps_hint">Set the host and access token first, then pick a zone for each light</string>
+  <string name="ha_zone_none">Not used</string>
+  <string name="ha_zone_average">Average screen color</string>
+  <string name="ha_zone_left">Sol edge</string>
+  <string name="ha_zone_right">Sağ edge</string>
+  <string name="ha_zone_top">Üst edge</string>
+  <string name="ha_zone_bottom">Alt edge</string>
+  <string name="ha_zone_top_left">Üst-left corner</string>
+  <string name="ha_zone_top_right">Üst-right corner</string>
+  <string name="ha_zone_bottom_left">Alt-left corner</string>
+  <string name="ha_zone_bottom_right">Alt-right corner</string>
+  <string name="ha_lamps_lamp_missing">Not seen on this Home Assistant right now</string>
+  <string name="action_save">Kaydet</string>
+  <string name="error_ha_token_missing">Home Assistant access token is not set. Open Ayarlar → Bağlantı → Access token</string>
+  <string name="error_ha_no_lamps">No Home Assistant lights are assigned to zones. Open Ayarlar → Bağlantı → Lights and zones</string>
+
+  <!-- Second, additional Home Assistant output -->
+
+  <!-- Adalight advanced settings -->
+  <string name="pref_title_adalight_protocol">Adalight Protocol</string>
+  <string-array name="pref_list_adalight_protocol">
+    <item>ADA (Standard)</item>
+    <item>LBAPA (LightBerry APA102)</item>
+    <item>AWA (Hyperserial)</item>
+    <item>tpm2</item>
+    <item>Skydimo</item>
+    <item>SEDU</item>
+    <item>KarateLight</item>
+    <item>AtmoLight</item>
+    <item>SP616E</item>
+  </string-array>
+  <string-array name="pref_list_adalight_protocol_values">
+    <item>ada</item>
+    <item>lbapa</item>
+    <item>awa</item>
+    <item>tpm2</item>
+    <item>skydimo</item>
+    <item>sedu</item>
+    <item>karate</item>
+    <item>atmo</item>
+    <item>sp616e</item>
+  </string-array>
+
+  <!-- App Specific Strings -->
+  <string name="toggle_activity_label">Universal Ambient Light (Toggle)</string>
+  <string name="quick_tile_label">Universal Ambient Light</string>
+  <string name="status_grabber_running">Ambient light service is running</string>
+  <string name="help">Help</string>
+  <string name="support_project">Support Project</string>
+  <string name="help_title">How to use</string>
+  <string name="help_message">Before using this app, you need to set up your LED controller:\n\n• WLED: Configure WLED firmware on your ESP8266/ESP32 device\n• Adalight: Connect Arduino with Adalight firmware via USB\n• Hyperion: Install and configure Hyperion server\n\nFor detailed setup instructions, please visit the GitHub repository.</string>
+  <string name="help_open_github">Open GitHub</string>
+  <string name="help_open_chat">Telegram chat</string>
+  <string name="help_close">Kapat</string>
+  <string name="support_project_title">Support Project</string>
+  <string name="support_project_message">Thank you for your interest in supporting this project!\n\nYou can support the development through:\n• Boosty\n• Cryptocurrency (TON)\n• Leave a review on Google Play\n\nClick below to see all available options.</string>
+  <string name="support_open_details">View Details</string>
+  <string name="report_issue">Report Issue</string>
+  <string name="leave_review">Leave Review</string>
+  <string name="rating_dialog_title">Rate Universal Ambient Light</string>
+  <string name="rating_dialog_message">How would you rate your experience?</string>
+  <string name="rating_dialog_low_rating_title">We\'re sorry to hear that</string>
+  <string name="rating_dialog_low_rating_message">If you encountered any issues, please let us know by reporting them on GitHub. Your feedback helps us improve the app.</string>
+  <string name="rating_dialog_report_issue">Report Issue</string>
+  <string name="rating_dialog_cancel">İptal</string>
+  <string name="github_issues_url">https://github.com/vasmarfas/universal-ambient-light/issues</string>
+  <string name="accessibility_service_description">Lets Universal Ambient Light capture the screen for the ambient lighting and press TV buttons on commands from a paired phone.</string>
+  <string name="accessibility_enable_prompt">Please enable the Accessibility Service for Universal Ambient Light</string>
+  <string name="accessibility_disclosure_title">Accessibility Permission Required</string>
+  <string name="accessibility_disclosure_message">This app uses the AccessibilityService API to capture screen content. This is required to analyze colors on your screen and sync them with your background lights (Ambilight) in real-time.\n\nThe screen data is processed locally on your device, is never saved, and is never transmitted to any third-party servers.\n\nIf you do not agree, you cannot use this capture mode.</string>
+  <string name="accessibility_disclosure_button_deny">Deny</string>
+  <string name="accessibility_disclosure_button_accept">Agree &amp; Devam et</string>
+
+  <!-- Remote control, autostart, TV controls -->
+  <string name="number_input_range">From %1$d to %2$d</string>
+  <string name="action_decrease">Decrease</string>
+  <string name="action_increase">Increase</string>
+  <string name="home_status_error">Lighting is off because of an error</string>
+  <string name="home_status_starting">Starting…</string>
+  <string name="home_status_stopped">Lighting is off</string>
+  <string name="home_target_no_host">address not set</string>
+  <string name="pref_summary_boot">Turn the lighting back on after the TV boots, wakes up or the app updates, if it was on before</string>
+  <string name="autostart_permissions_ok">Granted: the lighting comes back by itself, without dialogs</string>
+  <string name="autostart_permissions_missing">Not granted: after sleep the TV may ask to confirm screen capture. Open to grant them via ADB</string>
+  <string name="adb_grant_title">Autostart permissions</string>
+  <string name="adb_grant_description">Uses ADB once to allow screen capture without a confirmation dialog, windows over other apps and unrestricted background work. Without them Android 10+ cannot bring the lighting back by itself after the TV wakes up or reboots. Usage access comes along: with it the lighting knows which app is on screen and uses the per-app delay.</string>
+  <string name="adb_grant_btn">Grant via ADB</string>
+  <string name="adb_grant_success">Done: screen capture without confirmation, windows over other apps and background work are allowed.</string>
+  <string name="adb_grant_partial">Not applied: %1$s. This firmware may not support it.</string>
+  <string name="adb_grant_failed">Could not grant permissions: %1$s</string>
+  <string name="adb_pair_port_not_found">Eşleştiring port not found. Open \"Eşleştir device with pairing code\" and keep that screen open.</string>
+  <string name="pref_group_remote">Remote control</string>
+  <string name="remote_host_title">Control from a phone</string>
+  <string name="remote_host_summary">Show a QR code to control this TV from a phone</string>
+  <string name="remote_host_instructions">Açık the phone open Universal Ambient Light → TV remote → Scan QR code. The phone and the TV must be on the same network.</string>
+  <string name="remote_host_disabled">Control from a phone is off</string>
+  <string name="remote_host_no_network">The TV is not connected to a network</string>
+  <string name="remote_host_blocked">The TV firmware does not let the service run in the background, so a phone cannot connect. Grant the autostart permissions in Ayarlar, Genel</string>
+  <string name="remote_host_no_clients">No phones connected</string>
+  <string name="remote_host_clients">Connected: %1$s</string>
+  <string name="remote_host_enable">Allow control from a phone</string>
+  <string name="remote_host_enable_summary">A background service keeps running so the phone can turn the lighting on at any time</string>
+  <string name="remote_host_reset_code">Değiştir the pairing code</string>
+  <string name="remote_host_reset_code_summary">Eşleştired phones lose access until they scan the new QR code</string>
+  <string name="remote_host_reset_confirm">All paired phones will be disconnected and will have to scan the new QR code. Devam et?</string>
+  <string name="remote_host_qr_description">Eşleştiring QR code</string>
+  <string name="remote_host_name">TV</string>
+  <string name="remote_host_address">Address</string>
+  <string name="remote_host_code">Code</string>
+  <string name="remote_tvs_title">TV remote</string>
+  <string name="remote_tvs_summary">Control the lighting of a TV from this phone</string>
+  <string name="remote_tvs_intro">Açık the TV open the app and go to \"Control from a phone\": it shows a QR code and a code for manual entry.</string>
+  <string name="remote_tvs_scan">Scan QR code</string>
+  <string name="remote_tvs_manual">Enter the code manually</string>
+  <string name="remote_tvs_connecting">Connecting to the TV…</string>
+  <string name="remote_tvs_paired">Eşleştired TVs</string>
+  <string name="remote_tvs_active">Under control</string>
+  <string name="remote_tvs_online">Açık the network</string>
+  <string name="remote_tvs_found">Found on the network</string>
+  <string name="remote_tvs_refresh">Search again</string>
+  <string name="remote_tvs_none_found">No TVs found. Open \"Control from a phone\" on the TV.</string>
+  <string name="remote_tvs_forget">Forget</string>
+  <string name="remote_tvs_forget_confirm">The phone will forget this TV. To control it again, scan its QR code.</string>
+  <string name="remote_tvs_connect">Connect</string>
+  <string name="remote_scan_hint">Point the camera at the QR code on the TV screen</string>
+  <string name="remote_manual_hint">The address and the code are shown on the TV under the QR code.</string>
+  <string name="remote_banner_title">TV: %1$s</string>
+  <string name="remote_banner_connected">Connected, changes are applied on the TV</string>
+  <string name="remote_banner_connecting">Connecting…</string>
+  <string name="remote_banner_Yeniden dene">Retry</string>
+  <string name="remote_banner_disconnect">Disconnect</string>
+  <string name="remote_settings_offline">No connection to the TV: changes will be sent once it is back</string>
+  <string name="remote_accessibility_on_tv">Turn on the app\'s accessibility service on the TV first</string>
+  <string name="remote_detect_frame_summary">Corners are dragged on the TV itself. From here you can run the screen search in the camera frame.</string>
+  <string name="remote_detect_frame_started">The TV is looking for the screen in the camera frame</string>
+  <string name="remote_adb_runs_on_tv">These actions run on the TV</string>
+  <string name="remote_adb_pair_instruction">Açık the TV open Wireless debugging → \"Eşleştir device with pairing code\" and type the 6-digit code here. The port can stay empty: the TV finds it itself.</string>
+  <string name="remote_adb_pair_port_optional">Eşleştiring port (optional)</string>
+  <string name="remote_adb_need_accessibility">Turn on the app\'s accessibility service on the TV, then try again.</string>
+  <string name="remote_opened_on_tv">Opened on the TV</string>
+  <string name="remote_confirm_on_tv">Confirm screen capture on the TV with the remote</string>
+  <string name="remote_error_activity_blocked">Android on the TV did not let the app show its window over the current one. Open the app on the TV or grant autostart permissions via ADB.</string>
+  <string name="remote_error_background_start">Android on the TV did not allow starting the service in the background. Grant autostart permissions via ADB or open the app on the TV.</string>
+  <string name="remote_error_camera_not_running">Kamera capture is not running on the TV</string>
+  <string name="remote_error_offline">No connection to the TV</string>
+  <string name="remote_error_not_found">TV not found. The phone and the TV must be on the same network, with control from a phone turned on in the app on the TV.</string>
+  <string name="remote_error_code_rejected">The TV did not accept the pairing code. Scan the QR code on the TV again.</string>
+  <string name="remote_error_wrong_tv">A different TV answered at this address. Scan the QR code again.</string>
+  <string name="remote_error_version">The app versions on the phone and the TV are not compatible. Update the app on both.</string>
+  <string name="remote_notification_channel">Control from a phone</string>
+  <string name="remote_notification_title">Control from a phone is on</string>
+  <string name="remote_notification_waiting">Waiting for a phone</string>
+  <string name="remote_notification_connected">Connected: %1$s</string>
+
+  <!-- Efektler without screen capture -->
+  <string name="effects_title">Efektler</string>
+  <string name="effects_intro">Efektler light the strip on their own, without screen capture. No screen recording permission is needed, and it does not matter what is on the TV.</string>
+  <string name="effects_group_static">Static</string>
+  <string name="effects_group_dynamic">Animated</string>
+  <string name="effects_group_setup">For setup</string>
+  <string name="effects_parameters">Ayarlar: %1$s</string>
+  <string name="effects_now_off">The lighting is off. Pick an effect and it turns on.</string>
+  <string name="effects_now_effect">Now on: %1$s</string>
+  <string name="effects_now_screen">The lighting follows the screen now. Picking an effect switches it over.</string>
+  <string name="effects_turn_off">Turn off</string>
+  <string name="effects_back_to_screen">Geri to the screen</string>
+  <string name="effects_color">Color</string>
+  <string name="effects_color2">Second color</string>
+  <string name="effects_hue">Hue</string>
+  <string name="effects_saturation">Doygunluk</string>
+  <string name="effects_speed">Speed</string>
+  <string name="effects_brightness">Parlaklık</string>
+  <string name="effects_temperature">Color temperature</string>
+  <string name="effects_standby">Keep on when the TV screen is off</string>
+  <string name="effects_standby_summary">The strip keeps glowing like a night light while the TV box stays awake. Some TVs cut the network in standby, then it goes dark anyway.</string>
+  <string name="unit_kelvin">%1$d K</string>
+  <string name="effect_solid">Solid color</string>
+  <string name="effect_gradient">Gradient</string>
+  <string name="effect_white">Movie white</string>
+  <string name="effect_white_hint">The reference white for watching movies is 6500 K, lower values are warmer.</string>
+  <string name="effect_rainbow">Rainbow</string>
+  <string name="effect_color_cycle">Color cycle</string>
+  <string name="effect_breathing">Breathing</string>
+  <string name="effect_candle">Candle</string>
+  <string name="effect_fire">Fire</string>
+  <string name="effect_aurora">Aurora</string>
+  <string name="effect_ocean">Ocean</string>
+  <string name="effect_plasma">Plasma</string>
+  <string name="effect_comet">Comet</string>
+  <string name="effect_layout_test">Layout test</string>
+  <string name="effect_layout_test_hint">Üst is red, right is green, bottom is blue, left is yellow. The white dot runs from the first LED in the numbering direction. If the colors or the path of the dot do not match the strip, fix the LED layout.</string>
+  <string name="effect_layout_test_strip_hint">Açık an LED strip the side boundaries of this pattern shift with scan depth and capture margins. For an exact check of every LED, open LED yerleşimi and turn on \"Show LED layout test\".</string>
+  <string name="home_source_effect">Effect: %1$s</string>
+  <string name="remote_error_update_tv">The app on the TV is older than this feature. Update it on the TV.</string>
+
+  <!-- Remote: buttons, mouse, text and apps of the TV -->
+  <string name="tv_remote_title">Remote</string>
+  <string name="tv_remote_tab_keys">Buttons</string>
+  <string name="tv_remote_tab_mouse">Mouse</string>
+  <string name="tv_remote_tab_text">Text</string>
+  <string name="tv_remote_tab_apps">Apps</string>
+  <string name="tv_remote_adb_missing">Buttons, mouse and text work through ADB on the TV, and it is not available now: %1$s</string>
+  <string name="tv_remote_adb_missing_accessibility">Without ADB only system buttons, taps and text through the accessibility service work.</string>
+  <string name="tv_remote_adb_setup">Set up ADB</string>
+  <string name="tv_remote_no_cursor">The TV does not allow windows over other apps, so the cursor is not visible. Grant the autostart permissions via ADB.</string>
+  <string name="tv_remote_power">Power</string>
+  <string name="tv_remote_input">Input source</string>
+  <string name="tv_remote_settings">TV settings</string>
+  <string name="tv_remote_back">Geri</string>
+  <string name="tv_remote_home">Home</string>
+  <string name="tv_remote_menu">Menu</string>
+  <string name="tv_remote_ok">Tamam</string>
+  <string name="tv_remote_up">Up</string>
+  <string name="tv_remote_down">Down</string>
+  <string name="tv_remote_left">Sol</string>
+  <string name="tv_remote_right">Sağ</string>
+  <string name="tv_remote_volume_up">Volume up</string>
+  <string name="tv_remote_volume_down">Volume down</string>
+  <string name="tv_remote_mute">Mute</string>
+  <string name="tv_remote_play_pause">Play or pause</string>
+  <string name="tv_remote_rewind">Rewind</string>
+  <string name="tv_remote_forward">Fast forward</string>
+  <string name="tv_remote_previous">Previous</string>
+  <string name="tv_remote_next">Next</string>
+  <string name="tv_remote_touchpad_hint">Slide a finger to move the cursor. A tap clicks, holding makes a long press. Two fingers scroll, a two-finger tap works as Geri.</string>
+  <string name="tv_remote_click">Click</string>
+  <string name="tv_remote_text_label">Text for the TV</string>
+  <string name="tv_remote_text_hint">Select a text field on the TV, a search box for example, and type here. The text appears on the TV right away.</string>
+  <string name="tv_remote_enter">Enter</string>
+  <string name="tv_remote_backspace">Delete</string>
+  <string name="tv_remote_clear">Clear</string>
+  <string name="tv_remote_apps_loading">Loading the TV apps…</string>
+  <string name="tv_remote_apps_empty">No apps found on the TV</string>
+  <string name="remote_tvs_switch">Other TVs</string>
+  <string name="remote_input_needs_adb">This needs ADB on the TV (%1$s). It is set up on the Remote screen.</string>
+  <string name="remote_app_not_found">The app is not installed on the TV</string>
+
+  <!-- Lighting delay and auto-tuning with the phone camera -->
+  <string name="calibration_title">Delay auto-tuning</string>
+  <string name="calibration_needs_remote">Auto-tuning films the TV with the phone camera, so it runs from a phone paired with the TV.</string>
+  <string name="calibration_needs_screen">Turn on the lighting in screen capture mode on the TV and play a movie: the delay is measured on it.</string>
+  <string name="calibration_turn_on">Turn on the lighting</string>
+  <string name="calibration_intro">The phone films the TV and the glow on the wall and compares when the picture and the strip change. The delay is measured on what is playing right now, so every app and source gets its own value.</string>
+  <string name="calibration_steps">1. Play a movie or a video with frequent scene changes.\n2. Turn off the lights in the room.\n3. Stand so that the whole TV screen and the wall around it are in the frame, and hold the phone still for about a minute.</string>
+  <string name="calibration_start">Start</string>
+  <string name="calibration_searching">The strip goes dark for a few seconds while the phone looks for the TV screen. Hold the phone still.</string>
+  <string name="calibration_measuring">Measuring. Scene changes: %1$d, seconds: %2$d. Hold the phone still.</string>
+  <string name="calibration_glow_invisible">The camera barely sees the glow of the strip. Turn off the lights and make sure the wall around the TV is in the frame.</string>
+  <string name="calibration_result_ahead">The strip is %1$d ms ahead of the picture</string>
+  <string name="calibration_result_behind">The strip is %1$d ms behind the picture</string>
+  <string name="calibration_result_in_sync">The strip and the picture are in sync</string>
+  <string name="calibration_result_details">Scene changes: %1$d. Accuracy about ±%2$d ms, match %3$d%%.</string>
+  <string name="calibration_unreliable">The result is not reliable: too few scene changes or the phone moved. Better repeat on a more dynamic scene.</string>
+  <string name="calibration_behind_hint">A delay cannot fix a late strip. Lower the smoothing or pick a faster capture method.</string>
+  <string name="calibration_current">Set now: %1$d ms. Suggested: %2$d ms.</string>
+  <string name="calibration_save_app">Kaydet for %1$s</string>
+  <string name="calibration_save_all">Kaydet for all apps</string>
+  <string name="calibration_no_usage_access">The TV does not report which app is on screen, so the delay is saved for all apps. Per-app delay needs usage access, it is granted together with the autostart permissions via ADB.</string>
+  <string name="calibration_saved">Kaydetd: %1$d ms. The TV applies it right away.</string>
+  <string name="calibration_repeat">Measure again</string>
+  <string name="calibration_error_no_screen">The TV screen was not found in the frame. Point the camera so that the whole screen is visible, and try again.</string>
+  <string name="calibration_error_too_dark">The frame is too dark. The TV should be on and playing something bright enough.</string>
+  <string name="calibration_error_too_close">The TV fills almost the whole frame and leaves no room for the wall. Step back a little.</string>
+  <string name="calibration_error_static">Too few scene changes for a measurement. Play something more dynamic and try again.</string>
+  <string name="calibration_error_not_running">Turn on the lighting on the TV first.</string>
+  <string name="calibration_error_not_screen">Auto-tuning works with screen capture, and the TV is showing an effect or using the camera now.</string>
+  <string name="delay_title">Lighting delay</string>
+  <string name="delay_summary">Per-app delay and auto-tuning with the phone camera</string>
+  <string name="delay_intro">If the strip runs ahead of the picture, a delay holds it back. Players and sources process video differently, so an app can have its own delay: the TV switches to it while that app is on screen.</string>
+  <string name="delay_global">Delay for all apps</string>
+  <string name="delay_calibration_title">Auto-tuning</string>
+  <string name="delay_calibration_summary">The phone camera films the TV and the glow and finds the delay on the movie that is playing.</string>
+  <string name="delay_calibration_open">Tune with the camera</string>
+  <string name="delay_calibration_on_phone">Auto-tuning runs from a phone: open TV remote on it, connect to this TV and go to Ayarlar, Lighting delay.</string>
+  <string name="delay_apps_title">Per-app delay</string>
+  <string name="delay_no_usage_access">The TV does not report which app is on screen. Grant usage access via ADB, otherwise the delay for all apps is used everywhere.</string>
+  <string name="delay_apps_empty">No apps with their own delay yet.</string>
+  <string name="delay_apps_remove">Remove</string>
+  <string name="delay_apps_add">Add an app</string>
+
+  <!-- Sleep timer -->
+  <string name="sleep_timer">Sleep timer</string>
+  <string name="sleep_timer_minutes">In %1$d min</string>
+  <string name="sleep_timer_cancel">Turn the timer off</string>
+  <string name="sleep_timer_until">Turns off at %1$s</string>
+
+  <!-- More controllers and smart lights -->
+  <string name="error_hue_not_paired">The Hue bridge is not paired. Open Ayarlar, Bağlantı and pair the bridge with its button.</string>
+  <string name="error_nanoleaf_not_paired">Nanoleaf is not paired. Open Ayarlar, Bağlantı and pair the panels.</string>
+  <string name="error_no_lamps">No lights are assigned to screen zones. Open Ayarlar, Bağlantı, Lights and zones.</string>
+
+  <!-- Controller picker -->
+  <string name="devices_title">Controller</string>
+  <string name="devices_found">Found on the network</string>
+  <string name="devices_searching">Looking for devices on the network…</string>
+  <string name="devices_nothing_found">Nothing answered. Check that the controller is on the same network, or pick its type below and enter the address by hand.</string>
+  <string name="devices_search_again">Search again</string>
+  <string name="devices_sweep">Check every address</string>
+  <string name="devices_sweep_summary">For WLED and Hyperion without mDNS. Takes a minute or two.</string>
+  <string name="devices_sweep_progress">Checking addresses: %1$d%%</string>
+  <string name="devices_manual">Choose by type</string>
+  <string name="devices_current">Current</string>
+  <string name="devices_lamps_count">Lights: %1$d</string>
+  <string name="devices_remote_note">The search runs from this phone, so the TV has to be on the same network.</string>
+  <string name="devices_group_strip">Addressable strip over the network</string>
+  <string name="devices_group_usb">Strip over USB</string>
+  <string name="devices_group_lamps">Smart lights and panels</string>
+  <string name="devices_group_server">Ambilight server</string>
+
+  <!-- Output types -->
+  <string name="output_wled">WLED</string>
+  <string name="output_wled_summary">ESP8266 or ESP32 with WLED firmware</string>
+  <string name="output_ddp">DDP</string>
+  <string name="output_ddp_summary">WLED, ESPixelStick, FPP and other DDP receivers</string>
+  <string name="output_e131">E1.31 (sACN)</string>
+  <string name="output_e131_summary">ESPixelStick, Falcon, FPP, DMX nodes</string>
+  <string name="output_artnet">Art-Net</string>
+  <string name="output_artnet_summary">DMX nodes and pixel controllers</string>
+  <string name="output_tpm2net">tpm2.net</string>
+  <string name="output_tpm2net_summary">Receivers compatible with Jinx!</string>
+  <string name="output_udpraw">UDP raw</string>
+  <string name="output_udpraw_summary">Bare RGB in one packet, up to 490 LEDs</string>
+  <string name="output_opc">Open Pixel Control</string>
+  <string name="output_opc_summary">FadeCandy and fcserver</string>
+  <string name="output_adalight">Adalight and USB kits</string>
+  <string name="output_adalight_summary">Arduino, ESP, Skydimo and other boards on a USB cable</string>
+  <string name="output_hue">Philips Hue</string>
+  <string name="output_hue_summary">Lights through the Hue bridge</string>
+  <string name="output_nanoleaf">Nanoleaf</string>
+  <string name="output_nanoleaf_summary">Shapes, Canvas, Elements, Lines, Light Panels</string>
+  <string name="output_wiz">WiZ</string>
+  <string name="output_wiz_summary">WiZ Connected lights, Philips WiZ included</string>
+  <string name="output_yeelight">Yeelight</string>
+  <string name="output_yeelight_summary">Needs LAN Control enabled in the Yeelight app</string>
+  <string name="output_lifx">LIFX</string>
+  <string name="output_lifx_summary">LIFX lights on the local network</string>
+  <string name="output_govee">Govee</string>
+  <string name="output_govee_summary">Needs LAN Control enabled in the Govee Home app</string>
+  <string name="output_homeassistant">Home Assistant</string>
+  <string name="output_homeassistant_summary">Any lights connected to Home Assistant</string>
+  <string name="output_hyperion">Hyperion / HyperHDR</string>
+  <string name="output_hyperion_summary">The picture goes to a Hyperion or HyperHDR server that drives the LEDs</string>
+
+  <!-- Controller settings -->
+  <string name="extra_outputs_title">Ek kontrolcüler</string>
+  <string name="extra_outputs_summary_empty">A second strip, side bars or lamps next to the main controller</string>
+  <string name="extra_outputs_summary_count">Added: %1$d</string>
+  <string name="extra_outputs_hint">They run together with the main controller and show the same picture. Each one has its own address and LED layout: the layout sets which sides it covers, and capture margins narrow it down to a part of the screen.</string>
+  <string name="extra_outputs_add">Kontrolcü ekle</string>
+  <string name="extra_output_title">Additional controller</string>
+  <string name="extra_output_off">off</string>
+  <string name="extra_output_delete">Kontrolcüyü sil</string>
+  <string name="extra_output_delete_confirm">Its address and LED layout will be lost.</string>
+  <string name="pref_title_output_enabled">Etkin</string>
+  <string name="pref_title_output_name">Ad</string>
+  <string name="pref_summary_output_name_empty">Ayarlanmadı</string>
+  <string name="home_target_with_extra" translatable="false">%1$s + %2$d</string>
+  <string name="controller_change">Değiştir</string>
+  <string name="controller_no_address">address not set</string>
+  <string name="pref_title_color_order">Renk sırası</string>
+  <string name="pref_title_dmx_universe">Start universe</string>
+  <string name="pref_summary_dmx_universe">%1$d, a longer strip continues into the next universes</string>
+  <string name="pref_title_dmx_leds_per_universe">LEDs per universe</string>
+  <string name="pref_summary_dmx_leds_per_universe">%1$d (170 fill all 510 channels of a universe)</string>
+  <string name="pref_title_tpm2_leds_per_packet">LEDs per packet</string>
+  <string name="pref_title_opc_channel">OPC channel</string>
+  <string name="pref_summary_opc_channel">%1$d (0 means every channel of the server)</string>
+  <string name="pref_summary_e131_multicast">Empty: multicast to 239.255.x.y</string>
+  <string name="home_target_multicast">multicast</string>
+  <string name="pref_title_hue_pairing">Bridge pairing</string>
+  <string name="pref_title_nanoleaf_pairing">Panel pairing</string>
+  <string name="pref_summary_paired">Eşleştired</string>
+  <string name="pref_summary_not_paired">Eşleştirilmedi; eşleştirmek için dokunun</string>
+
+  <!-- Eşleştiring -->
+  <string name="action_pair">Eşleştir</string>
+  <string name="pair_in_progress">Eşleştiring…</string>
+  <string name="pair_failed">Couldn\'t pair: %1$s</string>
+  <string name="hue_pair_title">Eşleştir the Hue bridge</string>
+  <string name="hue_pair_text">Press the round button on top of the bridge, then tap Eşleştir within 30 seconds.</string>
+  <string name="hue_pair_button_not_pressed">The bridge says its button wasn\'t pressed. Press it and try again.</string>
+  <string name="nanoleaf_pair_title">Eşleştir Nanoleaf</string>
+  <string name="nanoleaf_pair_text">Hold the power button on the controller for 5 to 7 seconds until its light starts flashing, then tap Eşleştir within 30 seconds.</string>
+  <string name="nanoleaf_pair_rejected">Nanoleaf refused: the button wasn\'t held or more than 30 seconds have passed.</string>
+  <string name="pair_need_host">Enter the address first</string>
+
+  <!-- Lights of other systems -->
+  <string name="lamps_dialog_title">%1$s lights</string>
+  <string name="lamps_hint_network">Lights are searched on the local network. Turn them on and check that they are on the same Wi-Fi.</string>
+  <string name="lamps_hint_hue">Eşleştir the bridge first, then pick a zone for each light.</string>
+  <string name="lamps_error">Couldn\'t get the list of lights: %1$s</string>
+  <string name="lamps_lamp_missing">Not found on the network right now</string>
+  <string name="lamps_identify">Yanıp söndür</string>
+
+  <!-- Home: controller setup hint -->
+  <string name="home_setup_button">Kontrolcüyü kur</string>
+  <string name="home_setup_no_host">The controller address is not set</string>
+  <string name="home_setup_no_lamps">No lights are assigned to screen zones</string>
+  <string name="home_setup_not_paired">%1$s is not paired yet</string>
+  <string name="home_setup_no_token">The Home Assistant token is not set</string>
+
+  <!-- Bağlantı errors of LED controllers and lights -->
+  <string name="error_device_unreachable">Couldn\'t reach the controller. Check its address and power, and that it is on the same network.</string>
+  <string name="error_device_connection_lost">The connection to the controller was lost, capture stopped.</string>
+  <string name="error_lamps_unreachable">Couldn\'t reach the lights. Check that they are powered and on the same network.</string>
+  <string name="error_lamps_connection_lost">The connection to the lights was lost, capture stopped.</string>
+
+  <!-- WLED LED count check -->
+  <string name="devices_led_mismatch_title">The LED count differs</string>
+  <string name="devices_led_mismatch_text">LEDs in WLED: %1$d, in the app layout: %2$d. With different numbers part of the strip stays dark or the colors land in the wrong place.</string>
+  <string name="devices_led_mismatch_layout">Set up the layout</string>
+  <string name="devices_led_mismatch_later">Şimdi değil</string>
+
+  <!-- Local network access (Android 17) -->
+  <string name="error_local_network">No access to the local network. Allow Nearby devices for the app in the system settings.</string>
+
+  <!-- Hue entertainment area -->
+  <string name="pref_title_hue_area">Eğlence alanı</string>
+  <string name="pref_summary_hue_area_none">Not used, lights get colors one by one</string>
+  <string name="hue_area_none">Lights one by one</string>
+  <string name="hue_area_none_summary">A few updates per second, zones are picked here</string>
+  <string name="hue_area_summary">Stream up to 25 times per second, places come from the Hue app</string>
+  <string name="hue_area_hint">Areas are created in the Hue app under Eğlence alanıs. The bridge streams colors to their lights, each light takes the color of its place around the screen.</string>
+  <string name="hue_area_empty">The bridge has no entertainment areas yet.</string>
+  <string name="hue_area_no_key">The bridge was paired by an older version of the app, without a streaming key. Eşleştir it again to use an area.</string>
+  <string name="hue_area_repair">Eşleştir again</string>
+  <string name="hue_area_error">Couldn\'t get the areas: %1$s</string>
+  <string name="pref_summary_hue_area_lamps">Lights and their places are set by the area in the Hue app</string>
+  <string name="error_hue_no_clientkey">The Hue bridge has to be paired again: the entertainment area needs a streaming key. Open Ayarlar, Bağlantı.</string>
+  <string name="home_setup_hue_repair">The Hue bridge has to be paired again</string>
+  <string name="hue_area_loading">Asking the bridge…</string>
+
+  <!-- Zigbee2MQTT -->
+  <string name="output_z2m">Zigbee2MQTT</string>
+  <string name="output_z2m_summary">Zigbee lights through an MQTT broker</string>
+  <string name="pref_title_mqtt_username">MQTT kullanıcısı</string>
+  <string name="pref_summary_mqtt_no_login">Giriş yok</string>
+  <string name="pref_title_mqtt_password">MQTT parolası</string>
+  <string name="pref_summary_mqtt_password_empty">Ayarlanmadı</string>
+  <string name="pref_summary_mqtt_password_set">Kaydetd</string>
+  <string name="pref_title_z2m_base_topic">Zigbee2MQTT base topic</string>
+  <string name="lamps_hint_z2m">The list comes from the broker, Zigbee2MQTT keeps it there. Check the broker address, login and base topic.</string>
+    <string name="remote_layout_test_unsupported_output">Select an addressable LED output on the TV</string>
+    <string name="remote_layout_test_no_device">No USB serial device connected to the TV</string>
+    <string name="remote_layout_test_start_failed">Could not start LED layout test on the TV</string>
+    <string name="remote_layout_test_timeout">Timed out waiting for USB permission on the TV</string>
+    <string name="remote_layout_test_denied">USB permission or LED test start denied on the TV</string>
+    <string name="led_layout_direct_test">Show LED layout test</string>
+    <string name="error_mstar_capture_stopped">MStar hardware capture stopped: %1$s</string>
+</resources>
