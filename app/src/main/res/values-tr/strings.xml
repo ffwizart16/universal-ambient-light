@@ -12,7 +12,7 @@
   <!-- notification button -->
   <string name="notification_exit_button">Çıkış</string>
   <!-- Network scanner -->
-  <string name="scanner_Yeniden dene_button">Yeniden dene</string>
+  <string name="scanner_retry_button">Yeniden dene</string>
   <string name="scanner_cancel">İptal</string>
   <!-- Network Scanner result -->
   <!-- Bağlantı settings -->
@@ -576,7 +576,7 @@
   <string name="remote_banner_title">TV: %1$s</string>
   <string name="remote_banner_connected">Connected, changes are applied on the TV</string>
   <string name="remote_banner_connecting">Connecting…</string>
-  <string name="remote_banner_Yeniden dene">Retry</string>
+  <string name="remote_banner_retry">Retry</string>
   <string name="remote_banner_disconnect">Disconnect</string>
   <string name="remote_settings_offline">No connection to the TV: changes will be sent once it is back</string>
   <string name="remote_accessibility_on_tv">Turn on the app\'s accessibility service on the TV first</string>
