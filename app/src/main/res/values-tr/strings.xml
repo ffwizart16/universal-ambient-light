@@ -49,8 +49,8 @@
     <string name="led_layout_scan_depth_help">Renk ortalaması alınacak alanın derinliği (%1-50).</string>
   <string name="led_layout_legend_title">Açıklama:</string>
   <string name="led_layout_legend_first_led">LED #1 (ilk)</string>
-  <string name="led_layout_legend_active_leds">Etkin LED'ler</string>
-  <string name="led_layout_legend_disabled_leds">Devre dışı LED'ler</string>
+  <string name="led_layout_legend_active_leds">Etkin LED\'ler</string>
+  <string name="led_layout_legend_disabled_leds">Devre dışı LED\'ler</string>
   <string name="led_layout_legend_screen">Ekran</string>
   <string name="led_side_mode_on">Açık</string>
   <string name="led_side_mode_off">Kapalı</string>
@@ -103,7 +103,7 @@
   <string name="pref_summary_camera_setup">Adjust the 4 corners to match your TV screen in the camera view</string>
   <string name="camera_setup_title">Kamera Setup</string>
   <string name="camera_setup_instruction">Drag the 4 corners to match the edges of your TV screen</string>
-  <string name="camera_auto_frame_button">TV'yi bul</string>
+  <string name="camera_auto_frame_button">TV\'yi bul</string>
   <string name="camera_auto_frame_not_found">TV screen not found — corners left unchanged</string>
   <string name="camera_auto_frame_too_dark">Too dark to find the screen — turn the TV on and try again</string>
   <string name="camera_auto_frame_no_screen">Nothing screen-shaped in the frame — point the camera at the TV</string>
@@ -270,7 +270,7 @@
   <string name="setup_required_open_settings">Ayarları aç</string>
   <string name="setup_required_cancel">İptal</string>
   <string name="error_invalid_led_counts">Total LED count is 0 — set the per-side LED counts in Ayarlar → LED yerleşimi</string>
-  <string name="error_server_unreachable">Hyperion sunucusuna bağlanılamadı. Ayarlarınızı ve Hyperion'un çalıştığını kontrol edin</string>
+  <string name="error_server_unreachable">Hyperion sunucusuna bağlanılamadı. Ayarlarınızı ve Hyperion\'un çalıştığını kontrol edin</string>
   <string name="error_adalight_unreachable">Could not connect to Adalight device. Make sure: 1) Device is connected via USB OTG cable, 2) USB permission is granted when prompted, 3) Correct baud rate is set in settings</string>
   <string name="error_connection_lost">Hyperion sunucusuyla bağlantı kesildi; yakalama durduruluyor</string>
   <string name="error_adalight_connection_lost">The connection to your Adalight device has been lost, now stopping the grabber</string>
